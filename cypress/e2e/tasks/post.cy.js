@@ -77,9 +77,6 @@ describe('POST /tasks', () => {
                         expect(response.status).to.eq(409)
                         expect(response.body.message).to.eq('Duplicated task!')
                     })
-
             })
-
     })
-
 })
