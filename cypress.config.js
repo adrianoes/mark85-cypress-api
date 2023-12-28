@@ -49,7 +49,7 @@ module.exports = defineConfig({
       amqpQueue: process.env.AMQP_QUEUE,
       amqpToken: process.env.AMQP_TOKEN,
       allure: true
-    }
+    },
     video: false,
     screenshotOnRunFailure: false,
   },
