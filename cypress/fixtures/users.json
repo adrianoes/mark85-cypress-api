@@ -1,0 +1,31 @@
+{
+    "login":{
+        "name": "Logan",
+        "email": "wolverine@gmail.com",
+        "password": "pwd123"
+    },
+    "inv_pass":{
+        "email": "eustaquio.santos.adriano@gmail.com",
+        "password": "123456"
+    },
+    "email_404":{
+        "email": "wrong-email@gmail.com",
+        "password": "pwd123"
+    },
+    "create":{
+        "name": "Adriano Santos",
+        "email": "eustaquio.santos.adriano@gmail.com",
+        "password": "pwd123"
+    },
+    "dup_email":{
+        "name": "James Gunn",
+        "email": "james@hotmail.com",
+        "password": "pwd123"
+    },
+    "required":{
+        "name": "Margot Robie",
+        "email": "margot@gmail.com",
+        "password": "pwd123"
+    }
+}
+

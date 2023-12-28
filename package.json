@@ -1,0 +1,30 @@
+{
+  "name": "mark85-cypress-api",
+  "version": "1.0.0",
+  "description": "Porjeto de testes de API do Mark85",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cypress, api, mark85, mongodb, rabbitmq"
+  },
+  "keywords": [
+    "cypress",
+    "api",
+    "mark85",
+    "mongodb",
+    "rabittmq"
+  ],
+  "author": "Adriano Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.1",
+    "allure-commandline": "^2.25.0",
+    "cypress": "^12.2.0",
+    "cypress-plugin-api": "^2.11.1",
+    "dotenv": "^16.3.1",
+    "mongodb": "^6.3.0"
+  }
+}
