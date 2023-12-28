@@ -50,7 +50,7 @@ module.exports = defineConfig({
       amqpToken: process.env.AMQP_TOKEN,
       allure: true
     }
-    // video: false,
-    // screenshotOnRunFailure: false,
+    video: false,
+    screenshotOnRunFailure: false,
   },
 });

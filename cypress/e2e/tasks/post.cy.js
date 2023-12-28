@@ -59,7 +59,7 @@ describe('POST /tasks', () => {
 
     it('duplicate task', function () {
         //usar massa de teste dup, se o erro persistir após as aulas finais
-        const { user, task } = this.tasks.create
+        const { user, task } = this.tasks.dup
         //porque se alguém mudar a senha ou outro dado do usuário, ele vai remover o usuário e na linha debaixo inserimos o usuário com o banco de dados inalterado
         cy.task('removeUser', user.email)
         //para cadastrar o usuário caso alguém delete ou edite ele no banco de dados
